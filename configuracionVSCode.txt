@@ -1,0 +1,16 @@
+1.- Abrir VSCode
+2.- Pestaña extensiones y buscar C/C++
+3.- Instalar extension C/C++ Extension Pack
+4.- Dirigirse a https://www.msys2.org/
+5.- Descargar la ultima version Mingw-w64
+6.- Seguir las instruccion de instalación
+7.- al finalizar la instalación, ejecutar el programa
+8.- introducir el siguiente comandopacman -S --needed base-devel mingw-w64-x86_64-toolchain, para instalar el compilador MinGW
+9.- verificar la version instalada gcc --version
+10.- En el menu inicio tecleamos variables de entorno y seleccionamos la opciones "editar las variables de entorno del sistema"
+11.- en la ventana que se abre, dar click en variables de entorno
+12.- variables de entorno del sistema y local-> path -> editar
+13.- nueva ruta -> colocar C:\msys64\mingw64\bin -> aceptar aceptar -> aceptar
+14.- abrir simbolo de sistema y verificar con gcc --version
+
+Nota: para actualizar los paquetes introducir el comando pacman -Suy

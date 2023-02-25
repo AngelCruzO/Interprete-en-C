@@ -1,0 +1,6 @@
+area(lado)(
+    (* 6 (^ lado 2))
+)
+
+(= lado ?)
+(? (area lado))
